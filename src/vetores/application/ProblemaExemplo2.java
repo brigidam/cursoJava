@@ -5,7 +5,7 @@ import vetores.entities.Product;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ProblemaExemploDois {
+public class ProblemaExemplo2 {
 
     public static void main(String[] args) {
 
