@@ -1,6 +1,8 @@
-package composicao.entities;
+package composicao.exercicioum.model.entities;
 
-import composicao.entities.enums.WorkerLevel;
+import composicao.exercicioum.model.entities.Department;
+import composicao.exercicioum.model.entities.HourContract;
+import composicao.exercicioum.model.enums.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.Calendar;

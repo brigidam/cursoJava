@@ -1,9 +1,9 @@
-package composicao.application;
+package composicao.exercicioum.application;
 
-import composicao.entities.Department;
-import composicao.entities.HourContract;
-import composicao.entities.Worker;
-import composicao.entities.enums.WorkerLevel;
+import composicao.exercicioum.model.entities.Department;
+import composicao.exercicioum.model.entities.HourContract;
+import composicao.exercicioum.model.entities.Worker;
+import composicao.exercicioum.model.enums.WorkerLevel;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

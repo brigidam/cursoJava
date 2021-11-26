@@ -1,4 +1,4 @@
-package composicao.exercicioDois.entities;
+package composicao.exerciciodois.entities;
 
 public class Comment {
 

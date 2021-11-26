@@ -1,6 +1,6 @@
-package composicao.exercicioDois.application;
-import composicao.exercicioDois.entities.Comment;
-import composicao.exercicioDois.entities.Post;
+package composicao.exerciciodois.application;
+import composicao.exerciciodois.entities.Comment;
+import composicao.exerciciodois.entities.Post;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

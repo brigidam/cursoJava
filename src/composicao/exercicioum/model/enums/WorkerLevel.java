@@ -1,4 +1,4 @@
-package composicao.entities.enums;
+package composicao.exercicioum.model.enums;
 
 public enum WorkerLevel {
 

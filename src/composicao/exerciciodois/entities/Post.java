@@ -1,4 +1,4 @@
-package composicao.exercicioDois.entities;
+package composicao.exerciciodois.entities;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

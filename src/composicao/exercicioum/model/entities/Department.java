@@ -1,4 +1,4 @@
-package composicao.entities;
+package composicao.exercicioum.model.entities;
 
 public class Department {
 
