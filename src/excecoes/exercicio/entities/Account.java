@@ -48,23 +48,12 @@ public class Account {
     }
 
     public void deposit(double amount) {
-        balance = balance + amount;
+        balance += amount;
     }
 
     public void withdraw(double amount) {
-        try {
-            if (amount < withdrawLimit){
-                balance -= amount;
-            } else {
-                throw new BusinessException("Erro de saque: A quantia excede o limite de saque");
-            } if (withdrawLimit < getBalance()) {
-                balance -= amount;
-            } else {
-                throw new BusinessException(("Erro de saque: Saldo insuficiente"));
-            }
-        } catch (RuntimeException e) {
-            throw e;
-        }
+        validateWithdraw(amount);
+        balance -= amount;
     }
 
     public void validateWithdraw(double amount) {
